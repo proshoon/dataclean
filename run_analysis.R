@@ -1,14 +1,3 @@
-#destname <- "HAR2.zip"
-#
-# if (!file.exists(destname)){
-# 
-#   sourceURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-#   download.file(sourceURL, destname, method="curl")
-# 
-# }
-#
-#unzip (destname)
-
 
 #load activity levels and features... and capture column names
 #change to CHAR to perform charcter type operations later
