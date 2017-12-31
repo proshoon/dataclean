@@ -9,7 +9,7 @@ output: html_document
 
 The R script (run_analysis.R) does the following:
 
-1. Downloads the data
+1. Data to be downloaded and unzipped already
 2. Load activity and features
 3. Extracts only the measurements on the mean and standard deviation for each measurement. 
 4. Changes mean and sdev column names appropriately (Mu=Mean, Sigma=SDev)
@@ -19,3 +19,4 @@ The R script (run_analysis.R) does the following:
 8. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 The end result is downloaded to the file tidy.txt
+
